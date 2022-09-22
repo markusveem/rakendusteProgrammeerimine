@@ -3,6 +3,7 @@ import './App.css';
 import Arvutus from './components/Arvutus'
 import ArvutusFunk from './components/ArvutusFunk';
 import Mui from './components/Mui.js';
+import { Input } from '@mui/material';
 
 function App() {
   return (

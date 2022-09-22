@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { Input } from '@mui/material';
 
 
 class Mui extends Component{
@@ -19,12 +20,12 @@ class Mui extends Component{
     render(){
         return (
             <div>
-                <input
+                <Input
                     type="text"
-                    id="message"
-                    name="message"
                     onChange={this.handleChange}
-                />
+                    >
+                </Input>
+                    
                 <h2>{this.state.message} {this.state.sisu}</h2>
             </div>
         )
