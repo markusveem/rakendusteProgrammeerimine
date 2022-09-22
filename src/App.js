@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Arvutus from './components/Arvutus'
 import ArvutusFunk from './components/ArvutusFunk';
+import Mui from './components/Mui.js';
 
 function App() {
   return (
     <div className='App'>
       <Arvutus />
+      <Mui />
       {/* <ArvutusFunk name="Maku"/> */}
     </div>
   )

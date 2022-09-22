@@ -12,7 +12,6 @@ class Arvutus extends Component{
     }
 
     calculate(current, nr){
-        console.log(nr)
         this.setState({
             number: current + nr  
         })
@@ -25,8 +24,7 @@ class Arvutus extends Component{
                 <button onClick={() => this.calculate(this.state.number, 1)}>+1</button>
                 <button onClick={() => this.calculate(this.state.number, -1)}>-1</button>
                 <button onClick={() => this.calculate(this.state.number, 100)}>+100</button>
-                <button onClick={() => this.calculate(this.state.number, -100)}>-100</button>
-                
+                <button onClick={() => this.calculate(this.state.number, -100)}>-100</button>     
             </div>
         )
     }
